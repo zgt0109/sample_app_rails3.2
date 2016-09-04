@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.22.2'
 gem 'bootstrap-sass', '2.0.4'
 gem 'slim-rails'
+gem 'annotate', '2.5.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -36,7 +37,7 @@ group :production do
 end
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
